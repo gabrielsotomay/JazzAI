@@ -6,7 +6,7 @@
 ### github repos
 #### [Omnizart](https://github.com/Music-and-Culture-Technology-Lab/omnizart)
 - Python library
-- "transcribes musical notes of instruments [WCS20](WCS20), chord progression [CS19](CS19), drum events [WWS20](WWS20), frame-level vocal melody [LS18](LS18), note-level vocal melody [HS20](HS20), and beat [CS20](CS20)."
+- "transcribes musical notes of instruments [WCS20](####WCS20), chord progression [CS19](####CS19), drum events [WWS20](####WWS20), frame-level vocal melody [LS18](####LS18), note-level vocal melody [HS20](####HS20), and beat [CS20](####CS20)."
 
 ### Websites
 [klangio](https://allthingsai.com/tool/klangio)
