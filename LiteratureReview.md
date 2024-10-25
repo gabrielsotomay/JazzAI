@@ -32,7 +32,9 @@ My experience:
 
 ### Tools
 #### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
-
+#### [Moseca](https://github.com/fabiogra/moseca)
+- Uses (basic pitch)[#basicpitch]
+- had a website but was discontinued
 ## References
 
 #### CS19
