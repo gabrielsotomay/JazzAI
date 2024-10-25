@@ -11,7 +11,7 @@ Automatic analysis of jazz solos to help jazz players improve their playing
 -   Ideas on how to improve their soloing/what is missing from their playing
 
 ## Milestones
-- use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song
+- [] use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song
 - 
 
 ## Current tasks
