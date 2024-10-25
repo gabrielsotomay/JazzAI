@@ -68,7 +68,7 @@ My experience:
 
 ### [JazzSet](https://old.reddit.com/r/datasets/comments/1b73vz3/jazzset_large_audio_dataset_with_instrumentation/)
 - "A remarkably large dataset of digitized high quality full length jazz session recordings from 1905 to 1966 with instrumentation and performer details annotated."
-- 
+- Files available on [google drive](https://drive.google.com/drive/folders/1MkAiT8Zgm2bF-BWKYOdhVOJS-eduIofb?usp=sharing)
 ## References
 
 #### CS19
