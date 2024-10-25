@@ -4,7 +4,10 @@
 - Must translate from audio
 - Must generate a symbolic transcription (music notation)
 
-
+## Existing jazz analysis AI
+### [Jazz Harmony Helper](https://www.yeschat.ai/gpts-9t557DU9q4u-Jazz-Harmony-Helper)
+- GPT powered garbage
+- 
 
 ## Existing music transcription software
 
@@ -24,18 +27,37 @@ My experience:
 - Tried transcribing played saxophone
 - Transcribed slow passages ok
 - Didn't provide many tools to transcribe individual passages/retry transcriptions
-- Was unable to transcribe fast passages (semiquavers at 120bpm)
-- 
+- Was unable to transcribe fast passages (semiquavers at 100bpm)
+
 #### [AnthemScore](https://www.lunaverus.com/)
+My experience:
+- Tried transcribing C major scale up and down on the recorder in crotchets, quavers, and semiquavers (4ths, 8ths, 16ths)
+- Worked reasonably well, seems like it's using a spectrograph AI method, a one-shot method essentially
+- only does up to 30 seconds for the free version
 ### Research papers 
 
 
-### Tools
-#### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
-#### [Moseca](https://github.com/fabiogra/moseca)
+## Tools
+### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
+### [Demucs](https://github.com/facebookresearch/demucs)
+- "state0of-the-art" music source separation model
+- Capable of separating drums, bass, and vocals from the rest of the accompaniment
+- based on U-net convolutional architecture insired by [Wave-U-Net](https://github.com/f90/Wave-U-Net)
+### [Moseca](https://github.com/fabiogra/moseca)
 - Discussed on [reddit by the author](https://old.reddit.com/r/opensource/comments/15x3e52/from_frustration_to_creation_how_i_built_my_own/)
 - Uses [basic pitch](#basicpitch)
 - had a website but was discontinued
+
+### Symbolic music representation
+- See [MidiTok](https://miditok.readthedocs.io/en/v3.0.1/tokenizations.html#tsd)
+- Main ones seem to be REMi, MIDI-Like, and TSD
+
+## Datasets
+### [Jazznet](https://paperswithcode.com/dataset/jazznet#:~:text=jazznet%20is%20a%20dataset%20of,than%2026k%20hours%20of%20audio.)
+- Dataset of chord progressions for jazz music generation
+### [symbolic-jazz-standards](https://huggingface.co/datasets/jspr/symbolic-jazz-standards)
+- 10,000 minutes of audio from ~200 public-domain well-known songs
+- 
 ## References
 
 #### CS19
