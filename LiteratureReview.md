@@ -1,22 +1,37 @@
 # Literature review!
 
+## Selection criteria
+- Must translate from audio
+- Must generate a symbolic transcription (music notation)
+
+
 
 ## Existing music transcription software
 
-### github repos
+### Open source solutions
 #### [Omnizart](https://github.com/Music-and-Culture-Technology-Lab/omnizart)
 - Python library
 - "transcribes musical notes of instruments [WCS20](#WCS20), chord progression [CS19](#CS19), drum events [WWS20](#WWS20), frame-level vocal melody [LS18](#LS18), note-level vocal melody [HS20](#HS20), and beat [CS20](#CS20)."
-
-### Websites
-[klangio](https://allthingsai.com/tool/klangio)
-
+#### [Magenta Transformers](https://magenta.tensorflow.org/transcription-with-transformers)
+- Started with [piano transcription](https://magenta.tensorflow.org/onsets-frames).
+- Expanded in 2020 to [drum transcription](https://magenta.tensorflow.org/oaf-drums).
+- Main discoveries:
+  - For piano transcription, off-the-shelft Transformers work at least as well as custome neural network architectures, just needs model training to take the spectrogram as input and output MIDI-like note events
+  - For multi-instrument transcription, training a single model on basically all existing datasets is very helpful. 
+### Paid solutions
+#### [klangio/melody scanner](https://allthingsai.com/tool/klangio)
+My experience: 
+- Tried transcribing played saxophone
+- Transcribed slow passages ok
+- Didn't provide many tools to transcribe individual passages/retry transcriptions
+- Was unable to transcribe fast passages (semiquavers at 120bpm)
+- 
+#### [AnthemScore](https://www.lunaverus.com/)
 ### Research papers 
 
 
 ### Tools
-[Magenta Transformers](https://magenta.tensorflow.org/transcription-with-transformers)
-
+#### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
 
 ## References
 
