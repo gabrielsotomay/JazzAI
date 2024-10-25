@@ -11,17 +11,15 @@ Automatic analysis of jazz solos to help jazz players improve their playing
 -   Ideas on how to improve their soloing/what is missing from their playing
 
 ## Milestones
-- - use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song
+- use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song
 - 
 
 ## Current tasks
 - Compile the literature on
--   existing music transcription software/projects
--   existing jazz analysis AI projects
--   helpful tools
-- implement a minimal test product
--   a model that analyses the likelihood of music to be a jazz solo
--   a music transcription software to turn music into notes
+  - existing music transcription software/projects
+  - existing jazz analysis AI projects
+  - helpful tools
+- Devise a basic architecture/pipeline for the project
 
 
 Things to learn
