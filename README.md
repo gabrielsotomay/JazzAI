@@ -1,28 +1,28 @@
 # JazzAI
-Automatic analysis and creation of jazz solos
+Automatic analysis of jazz solos to help jazz players improve their playing
 
-
-
-Aims of the project 
-- Analyse jazz solos to help jazz musicians improve
-
-Current goals
-- Compile the literature on
--   existing music transcription software/projects
--   existing jazz analysis AI projects
-- implement a minimal test product-   
--   a model that analyses the likelihood of music to be a jazz solo?
--   a music transcription software to turn music into notes
--     sections are analysed by their likelihood to be a solo?
--   
-
-
-User experience
+## User experience
 - User wants to improve their jazz playing to sound more like a pro
-- They upload their playing
+- They record themselves playing a jazz solo 
+- They input their playing into the JazzAI program
 - The user is presented with an analysis of their playing
 -   Artists they resemble
 -   Parts that sound good/bad
--   Aspects of their 
-- The user chooses who they want to sound like
+-   Ideas on how to improve their soloing/what is missing from their playing
+
+## Milestones
+- - use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song
 - 
+
+## Current tasks
+- Compile the literature on
+-   existing music transcription software/projects
+-   existing jazz analysis AI projects
+-   helpful tools
+- implement a minimal test product
+-   a model that analyses the likelihood of music to be a jazz solo
+-   a music transcription software to turn music into notes
+
+
+Things to learn
+- What is a U-net convolutional architecture (used by Demucs)
