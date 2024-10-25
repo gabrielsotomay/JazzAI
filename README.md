@@ -17,7 +17,7 @@ Automatic analysis of jazz solos to help jazz players improve their playing
 - Could use generative AI or some sort of diffusion method to make the player's solo approximate an artist's solo, and use this transformation information to present improvement data to the player
 ## Milestones
 - [ ] figure out how to use WSL2 with github
-- [ ... ] use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song (done (poorly) but need to upload code to the github)
+- [?] use [basic pitch](https://huggingface.co/spotify/basic-pitch) or demucs to separate out the saxophone from a jazz song (done (poorly) but need to upload code to the github)
 - 
 
 ## Current tasks
