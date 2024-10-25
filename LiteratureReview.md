@@ -33,7 +33,8 @@ My experience:
 ### Tools
 #### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
 #### [Moseca](https://github.com/fabiogra/moseca)
-- Uses (basic pitch)[#basicpitch]
+- Discussed on [reddit by the author](https://old.reddit.com/r/opensource/comments/15x3e52/from_frustration_to_creation_how_i_built_my_own/)
+- Uses [basic pitch](#basicpitch)
 - had a website but was discontinued
 ## References
 
