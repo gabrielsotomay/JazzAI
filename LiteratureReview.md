@@ -1,16 +1,13 @@
 # Literature review!
 
-## Selection criteria
-- Must translate from audio
-- Must generate a symbolic transcription (music notation)
 
-## Existing jazz analysis AI
-### [Jazz Harmony Helper](https://www.yeschat.ai/gpts-9t557DU9q4u-Jazz-Harmony-Helper)
-- GPT powered garbage
-- 
+
+
 
 ## Existing music transcription software
-
+### Selection criteria
+- Must translate from audio
+- Must generate a symbolic transcription (music notation)
 ### Open source solutions
 #### [Omnizart](https://github.com/Music-and-Culture-Technology-Lab/omnizart)
 - Python library
@@ -34,8 +31,12 @@ My experience:
 - Tried transcribing C major scale up and down on the recorder in crotchets, quavers, and semiquavers (4ths, 8ths, 16ths)
 - Worked reasonably well, seems like it's using a spectrograph AI method, a one-shot method essentially
 - only does up to 30 seconds for the free version
-### Research papers 
 
+
+## Existing jazz analysis AI
+### [Jazz Harmony Helper](https://www.yeschat.ai/gpts-9t557DU9q4u-Jazz-Harmony-Helper)
+- GPT powered garbage
+- 
 
 ## Tools
 ### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
