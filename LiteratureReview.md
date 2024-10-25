@@ -48,9 +48,15 @@ My experience:
 - Uses [basic pitch](#basicpitch)
 - had a website but was discontinued
 
-### Symbolic music representation
-- See [MidiTok](https://miditok.readthedocs.io/en/v3.0.1/tokenizations.html#tsd)
-- Main ones seem to be REMi, MIDI-Like, and TSD
+### [MidiTok](https://github.com/Natooz/MidiTok)
+- Symbolic music representation
+- Multiple methods
+-   REMI
+-   MIDI-Like
+-   TSD
+- [Documentation](https://miditok.readthedocs.io/en/v3.0.1/tokenizations.html#tsd)
+
+
 
 ## Datasets
 ### [Jazznet](https://paperswithcode.com/dataset/jazznet#:~:text=jazznet%20is%20a%20dataset%20of,than%2026k%20hours%20of%20audio.)
@@ -59,6 +65,9 @@ My experience:
 - 10,000 minutes of audio from ~200 public-domain well-known songs
 - Separated into component stems using Demucs in 4-stem mode to vocals, bass, drums, and other
 - Fed through "a proprietary polyphonic music transcription model" to obtain the stems' corresponding symbolic domain representations
+
+### [JazzSet](https://old.reddit.com/r/datasets/comments/1b73vz3/jazzset_large_audio_dataset_with_instrumentation/)
+- "A remarkably large dataset of digitized high quality full length jazz session recordings from 1905 to 1966 with instrumentation and performer details annotated."
 - 
 ## References
 
