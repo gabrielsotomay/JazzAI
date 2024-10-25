@@ -40,7 +40,7 @@ My experience:
 ## Tools
 ### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
 ### [Demucs](https://github.com/facebookresearch/demucs)
-- "state0of-the-art" music source separation model
+- "state0of-the-art" music source separation model by facebook research
 - Capable of separating drums, bass, and vocals from the rest of the accompaniment
 - based on U-net convolutional architecture insired by [Wave-U-Net](https://github.com/f90/Wave-U-Net)
 ### [Moseca](https://github.com/fabiogra/moseca)
@@ -57,6 +57,8 @@ My experience:
 - Dataset of chord progressions for jazz music generation
 ### [symbolic-jazz-standards](https://huggingface.co/datasets/jspr/symbolic-jazz-standards)
 - 10,000 minutes of audio from ~200 public-domain well-known songs
+- Separated into component stems using Demucs in 4-stem mode to vocals, bass, drums, and other
+- Fed through "a proprietary polyphonic music transcription model" to obtain the stems' corresponding symbolic domain representations
 - 
 ## References
 
