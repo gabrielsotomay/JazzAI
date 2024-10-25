@@ -36,7 +36,8 @@ My experience:
 ## Existing jazz analysis AI
 ### [Jazz Harmony Helper](https://www.yeschat.ai/gpts-9t557DU9q4u-Jazz-Harmony-Helper)
 - GPT powered garbage
-- 
+
+
 
 ## Tools
 ### [Basic Pitch](https://huggingface.co/spotify/basic-pitch)
@@ -57,7 +58,9 @@ My experience:
 -   TSD
 - [Documentation](https://miditok.readthedocs.io/en/v3.0.1/tokenizations.html#tsd)
 
-
+## Other
+- [Labeling and Visualization of Jazz Music in MIDI](https://www.kaggle.com/code/toddpp/labeling-and-visualization-of-jazz-music-in-midi)
+- 
 
 ## Datasets
 ### [Jazznet](https://paperswithcode.com/dataset/jazznet#:~:text=jazznet%20is%20a%20dataset%20of,than%2026k%20hours%20of%20audio.)
@@ -70,6 +73,14 @@ My experience:
 ### [JazzSet](https://old.reddit.com/r/datasets/comments/1b73vz3/jazzset_large_audio_dataset_with_instrumentation/)
 - "A remarkably large dataset of digitized high quality full length jazz session recordings from 1905 to 1966 with instrumentation and performer details annotated."
 - Files available on [google drive](https://drive.google.com/drive/folders/1MkAiT8Zgm2bF-BWKYOdhVOJS-eduIofb?usp=sharing)
+
+### [Jazz Structure Dataset](https://publica.fraunhofer.de/entities/publication/148cfb06-046a-40ca-9289-a31478bd8ddc)
+
+### Weimar jazz database (transcriptions for 456 solo sections)
+- might be able to use this to train the model if these solo sections have recordings in the other dataset
+- Could be able to remove the lead instrument with the solo transcription to get a better idea of the rhythm section and remove that more accurately
+
+### [Jazz ML ready MIDI](https://www.kaggle.com/datasets/saikayala/jazz-ml-ready-midi/code)
 ## References
 
 #### CS19
