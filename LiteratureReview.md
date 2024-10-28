@@ -76,7 +76,8 @@ My experience:
 
 ### [Jazz Structure Dataset](https://publica.fraunhofer.de/entities/publication/148cfb06-046a-40ca-9289-a31478bd8ddc)
 
-### Weimar jazz database (transcriptions for 456 solo sections)
+### [Weimar jazz database](https://jazzomat.hfm-weimar.de/dbformat/dboverview.html)
+- transcriptions for 456 solo sections
 - might be able to use this to train the model if these solo sections have recordings in the other dataset
 - Could be able to remove the lead instrument with the solo transcription to get a better idea of the rhythm section and remove that more accurately
 
