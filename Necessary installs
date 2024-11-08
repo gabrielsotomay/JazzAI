@@ -1,0 +1,7 @@
+Packages installed :|
+
+
+
+To sanitize SQL data:
+sudo apt-get install libpq-dev
+pip install psycopg2
